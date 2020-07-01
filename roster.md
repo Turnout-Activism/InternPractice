@@ -1,27 +1,19 @@
 # Intern Roster
 
-## Amonte Andrews (no team)
-``` js 
-var amonte = {
-    niceGuy:true,
-    covidHobbies:['Dark Season 3', 'Coding', 'Reading'],
-    getExperience: function(andStrengths) {
-        return !andStrengths ? "Posted in slack" : "Still posted in slack.";
-    }
-}
-```
-## Martin Vityk (Mobile Software Dev)
+## Ido Katz (mobile dev ops)
+
 Strengths
-- Android App Dev
-- IOS Dev
-- Firebase
+- Communication & Teamwork
+- Java
 
 Experience
-- Android App that uses Realtime Firebase Database to handle a live queue
-- Cross platform app developed in both IOS and Android environments
-- Server side Firebase Functions written in nodejs
+- Created WordPress and HTML website idokatz.com
+
 
 Interests
-- Acting
-- Gaming (League, tft)
-- Hiking
+- Shows
+    - Money Heist
+    - Lost
+    - Parks and Rec
+- Ultimate Frisbee
+- Photography
