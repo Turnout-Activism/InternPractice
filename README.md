@@ -14,7 +14,3 @@ Some of things we'll want to practice are:
 ## Creating a pull request
 
 ## Fetch changes
-
-
--Luis Moran 
-added this to the Readme. 

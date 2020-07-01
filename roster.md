@@ -8,5 +8,11 @@ var amonte = {
     getExperience: function(andStrengths) {
         return !andStrengths ? "Posted in slack" : "Still posted in slack.";
     }
+let luis = {
+    funGuy: true, 
+    hobbies: ['cooking', 'working on cars', 'coding'],
+    compliment(): 
+        return "You are awesome!"; 
+    }
 }
 ```
