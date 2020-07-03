@@ -14,6 +14,13 @@ var amonte = {
 
 ## Web Developers
 
+### Tanya Malik (Back-End Developer)
+    var tanya = {
+    backEndDevTeam: true
+    hobbies=['Piano','Spending Time WIth Family', 'Making Desserts']
+    Strengths:['Hardworking','Eager to Learn','Friendly']
+    }
+
 ### Iniya Rajamani (Front-End Development Team)
 ``` js
 var amonte = {
@@ -179,6 +186,18 @@ Collecting Vinyls
 Reading autobiograpies
 Traveling (Have been to England, Wales, Montreal, and Amsterdam)
 
+### Sanjana Yadav (Database/Architect)
+Strengths
+	- Backend development with Java, C, Python, SQL
+	- Frontend development with Django, Flask, and React
+
+Experience
+	- Made a winning full stack application with Flask, API calls, and SQL database for a hackathon
+
+Interests:
+	- Reading
+	- Photography
+
 ## Mobile Team
 ### Juan Becerra (Mobile)
 Stengths
@@ -208,6 +227,21 @@ Interests
 - Soccer
 - Gaming
 - Coding
+
+
+### Disha Patel (Mobile Dev)
+Strengths
+- JAVA, JSON, SQL
+- Android Studio, IntelliJ, Eclipse 
+
+Experience
+- SAP BW and SAP ABAP
+- developed various apps in Android Studio using Java & iOS apps using Swift 4.2 in XCode 10
+
+Interests
+- Music
+- Reading
+- Yoga
 
 ### Sonia Saitawdekar (Mobile Dev)
 Strengths
