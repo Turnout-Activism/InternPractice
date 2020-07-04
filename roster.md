@@ -20,8 +20,15 @@ var tanya = {
 
 ## Web Developers
 
+### Tanya Malik (Back-End Developer)
+    var tanya = {
+    backEndDevTeam: true
+    hobbies=['Piano','Spending Time WIth Family', 'Making Desserts']
+    Strengths:['Hardworking','Eager to Learn','Friendly']
+    }
+
 ### Iniya Rajamani (Front-End Development Team)
-``` js 
+``` js
 var amonte = {
     frontEndDevTeam: true,
     thingsILove:['Photography', 'Comp Sci', 'Criminal Minds'],
@@ -60,12 +67,12 @@ Interests
 
 
 ### Luis Moran  (Front End Web Developer)
-- Strengths: 
+- Strengths:
     - JavaScript
     - Python
     - HTML5 and CSS3
 
-- Interests: 
+- Interests:
     -Cooking
     -Coding
     -Lacrosse
@@ -80,7 +87,7 @@ Experience:
 -Currently maintaining a Necessary Behavior's site that uses Shopify
 -Built various full stack projects such as a Pictionary game, a To-Do List, and Language E-learning site, with occasional front-end projects.
 
-Interests: 
+Interests:
 Cooking,
 Trying new foods (foodie),
 Gaming,
@@ -103,9 +110,43 @@ Interests
 - Tennis
 - Music
 
+### Lisa Eng (Front-End Web Developer)
+Strengths
+- HTML/CSS
+- Python
+- Java
+- PHP
+- SQL
+
+Experience
+- Developed websites (one displaying recipes and another is a gallery) using HTML/CSS, Javascript, PHP, and SQL
+- Developed in house app to simplify job application process using C# and Javascript.
+
+Interests
+- Cooking/trying new foods
+- Swimming
+- TV Addict
+
+### Kalyan(Full Stack Developer)
+Experience 
+Made a loan application website with Angular as Front end 
+Involved in working the Django Rest Framework API 
+Implemented the Authentication logic of the application using AWS Cognito
+Created SQL Table and PL/SQL Stored procedures and Triggers that are required for the application
+
+Interests
+- Cricket(Sport)
+- Music
+- Cooking
+
+Strengths
+
+-Good communication skills
+-Teamwork
+-Quick Learner
 
 ## Database Team (Firebase)
-### Martin Vityk 
+### Martin Vityk
 Strengths
 - Android App Dev
 - IOS Dev
@@ -140,16 +181,28 @@ Interests
 ### Cameron Senor (Database/Architect)
 Strengths
 Backend development using Java and C
-Experience with IntelliJ/Command Prompt and Vim/Linux 
+Experience with IntelliJ/Command Prompt and Vim/Linux
 
 Expereince:
 This is my first internship, so looking to build my experience with TurnUp!
 Languages: Java, C, SQL, MIPS.
 
-Interests: 
+Interests:
 Collecting Vinyls
 Reading autobiograpies
 Traveling (Have been to England, Wales, Montreal, and Amsterdam)
+
+### Sanjana Yadav (Database/Architect)
+Strengths
+	- Backend development with Java, C, Python, SQL
+	- Frontend development with Django, Flask, and React
+
+Experience
+	- Made a winning full stack application with Flask, API calls, and SQL database for a hackathon
+
+Interests:
+	- Reading
+	- Photography
 
 ## Mobile Team
 ### Juan Becerra (Mobile)
@@ -181,6 +234,21 @@ Interests
 - Gaming
 - Coding
 
+
+### Disha Patel (Mobile Dev)
+Strengths
+- JAVA, JSON, SQL
+- Android Studio, IntelliJ, Eclipse 
+
+Experience
+- SAP BW and SAP ABAP
+- developed various apps in Android Studio using Java & iOS apps using Swift 4.2 in XCode 10
+
+Interests
+- Music
+- Reading
+- Yoga
+
 ### Sonia Saitawdekar (Mobile Dev)
 Strengths
 - Java
@@ -211,6 +279,22 @@ Interests
 - Cooking
 - Coding
 
+### Sophia Sangervasi (Moblie Dev)
+Strengths:
+- Java
+- MIPS
+- Prolog
+- Teamwork
+
+Experience:
+- This is my first internship and I am excited to learn some new skills!
+
+Interests:
+- Lacrosse
+- Painting
+- Camping
+
+
 ## Devops Team
 
 ### Ido Katz (Mobile Dev Ops)
@@ -232,4 +316,10 @@ Interests
 	- Parks and Rec
 - Ultimate Frisbee
 - Photography
+
+
+
+
+
+
 
