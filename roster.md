@@ -1,14 +1,12 @@
 # Intern Roster
 
-<<<<<<< HEAD
+
 ### Amonte Andrews (no team)
 ``` js
 var amonte = {
-=======
 ## tanya (no team)
 ``` js 
 var tanya = {
->>>>>>> 2e90c4cf45b9e41fba6462c10e42437c50ab1d82
     BackEndDevTeam:true,
     covidHobbies:['Piano', 'Spending Time With Family', 'Reading'],
     getExperience: function(andStrengths) {
