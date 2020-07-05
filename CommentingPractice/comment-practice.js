@@ -1,10 +1,15 @@
 /**
  * @file Main
- * 
+ *
  */
 import Template from './model/template.js';
 import * as amonte from './services/capitalizer.js';
 import * as adil from './services/splitor.js';
+import { myName }  from './services/practice.js';
+import * as martin from './services/spaces.js';
+import { toPigLatin } from './services/piglatin.js';
+import * as luis from './services/backwardsName.js';
+
 
 
 
@@ -13,9 +18,19 @@ import * as adil from './services/splitor.js';
     var name = "AmonteAndrews";
      console.log(amonte.randomlyCapitalize(name));
 
+     myName();
 
-     var name = "My name is Adil Merribi";
+     var space = "space is large";
+     console.log(amonte.randomlyCapitalize(space));
+
+     let luisMyName = "Luis Moran"
+     console.log(luis.backwardsName(luisMyName));
+
+     let greeting = "hello";
+     console.log(martin.addSpace(greeting));
+
+     let name = "My name is Adil Merribi";
      console.log(adil.mySubstring(name));
 
- })()
+ })();
 
