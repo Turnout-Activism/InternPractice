@@ -4,12 +4,12 @@
  */
 import Template from './model/template.js';
 import * as amonte from './services/capitalizer.js';
-import * as adil from './services/splitor.js';
 import { myName }  from './services/practice.js';
 import * as martin from './services/spaces.js';
 import { toPigLatin } from './services/piglatin.js';
 import * as luis from './services/backwardsName.js';
-
+import * as ramitha from './services/lowercase.js';
+import * as adil from './services/splitor.js';
 
 
 
@@ -28,9 +28,12 @@ import * as luis from './services/backwardsName.js';
 
      let greeting = "hello";
      console.log(martin.addSpace(greeting));
+    
+    var word = "WORD";
+    console.log(ramitha.lowercase(word));
 
-     let name = "My name is Adil Merribi";
-     console.log(adil.mySubstring(name));
+    var MyString = "My name is Adil Merribi";
+     console.log(adil.myChars(MyString));
 
  })();
 
