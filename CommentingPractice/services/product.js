@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
 * @file a product function that returns the products of two numbers.
 * @author Cameron Senor
