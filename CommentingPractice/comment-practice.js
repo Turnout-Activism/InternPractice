@@ -9,7 +9,10 @@ import * as martin from './services/spaces.js';
 import { toPigLatin } from './services/piglatin.js';
 import * as luis from './services/backwardsName.js';
 import * as ramitha from './services/lowercase.js';
-
+import * as sanjana from './services/product.js';
+import * as Arithmetic from './services/arithmetic.js';
+import * as mitchell from './services/caesarCipher.js';
+import * as adil from './services/splitor.js';
 
 
 
@@ -28,9 +31,32 @@ import * as ramitha from './services/lowercase.js';
 
      let greeting = "hello";
      console.log(martin.addSpace(greeting));
+
     
     var word = "WORD";
     console.log(ramitha.lowercase(word));
+
+
+	var num1 = 8;
+	var num2 = 9;
+	console.log(sanjana.product(num1,num2));
+
+
+    var num1 = 10, num2 = 2;
+    console.log(Arithmetic.Add(num1, num2) + " :: " +
+                Arithmetic.Subtract(num1, num2) + " :: " +
+                Arithmetic.Multiply(num1, num2) + " :: " +
+                Arithmetic.Divide(num1, num2));
+
+
+
+     let message = "Mitchell";
+     console.log(mitchell.caesarCipher(message));
+
+
+     var MyString = "My name is Adil Merribi";
+     console.log(adil.myChars(MyString));
+
  })();
 
 
