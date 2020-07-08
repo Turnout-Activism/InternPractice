@@ -57,6 +57,9 @@ import * as adil from './services/splitor.js';
      var MyString = "My name is Adil Merribi";
      console.log(adil.myChars(MyString));
 
+    var MyString2 = "My name is Ido";
+    consol.log(adil.myChars(MyString2));
+
 
  })();
 
