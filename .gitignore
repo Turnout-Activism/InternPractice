@@ -109,4 +109,5 @@ CommentingPractice/.DS_Store
 CommentingPractice/main.js
 .DS_Store
 CommentingPractice/docs/gen/
+# IDE ignore folder
 CommentingPractice/.idea
