@@ -20,7 +20,7 @@ class ColorConverter {
    * @param r {number}
    * @param g {number}
    * @param b {number}
-   * @returns {string}
+   * @returns {string} | null in case of wrong format
    */
   rgbToHex(r, g, b) {
     if (r < 0 || r > 255 || g < 0 || g > 255 || b < 0 || b > 255)
@@ -37,7 +37,7 @@ class ColorConverter {
   /**
    *
    * @param hex {string}
-   * @returns {string}
+   * @returns {string} | null in case of wrong format
    */
   hexToRGB(hex) {
     let res = null
@@ -51,8 +51,5 @@ class ColorConverter {
   }
 }
 
-const cc = new ColorConverter()
-// console.log(cc.hexToRGB('#F554fA'))
-// console.log(cc.rgbToHex(245, 84, 250))
 module.exports = ColorConverter
 
