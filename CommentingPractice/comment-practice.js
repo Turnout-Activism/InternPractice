@@ -93,6 +93,10 @@ import Snack from './model/snack.js';
     const whoIsEmperor = new glory.Emperor(true, 10); 
     console.log(whoIsEmperor.whoIsHe());
 
+    //utilizing teammate.js model for task 3 ~ Cameron Senor
+    var teamMateObj = new TeamMate("Alex", "Senor");
+    teamMateObj.hello();
+
 
 
  })();
