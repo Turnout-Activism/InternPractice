@@ -22,7 +22,7 @@ import * as adrianna from './services/sum.js';
 import * as glory from './model/rome.js';
 import TeamMate from './model/teammate.js'; 
 import ColorConverter from './services/colorConverter'; 
-
+import * as Plant from './model/plant.js';
 
 
 
@@ -105,6 +105,9 @@ import ColorConverter from './services/colorConverter';
 
     member.hello();
 
+    const plant = new Plant.Plant("Amonte",29,true);
+    console.log(plant.isIndoorPlant());
+    
 
 
  })();

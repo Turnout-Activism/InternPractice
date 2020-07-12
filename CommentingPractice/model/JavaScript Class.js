@@ -4,7 +4,9 @@
  * @author Tanya Malik (backend Web Development)
 */
 
-/**
+class Tree
+ {
+   /**
  * @description Tree Class with parameters season, height, numLeaves, numBranches, type
  * 
  * Constructor
@@ -14,9 +16,6 @@
  * @param {number} numBranches number of branches
  * @param {string} type type of tree
  */
-
-class Tree
- {
    constructor(season,height,numLeaves,numBranches,type)
    {
    this.season=season;
@@ -27,8 +26,12 @@ class Tree
   }
 }
 
-/**
- * @description Tree Class with parameters season, height, numLeaves, numBranches, type
+
+
+class WalkTree extends Tree
+ {
+   /**
+ * @description WalkTree Class with parent parameters and isWalking
  * 
  * Constructor (isWalking is only new parameter)
  * @param {string} season spring, summer, fall, winter
@@ -38,9 +41,6 @@ class Tree
  * @param {string} type type of tree
  * @param {boolean} isWalking is always true
  */
-
-class WalkTree extends Tree
- {
    constructor(season,height,numLeaves,numBranches,type,isWalking)
    {
       super(season,height,numLeaves,numBranches,type);
