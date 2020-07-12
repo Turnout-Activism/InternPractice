@@ -58,7 +58,7 @@ export class Chocolate extends Snack{
     constructor(cocoPowderPercentage, chocolateType){
         super("Candy", false) //calling constructor or paraent class
         this.cocoPowderPercentage = cocoPowderPercentage;
-        var chocolateType= chocolateType;
+        this.chocolateType= chocolateType;
     }
 
     /**
