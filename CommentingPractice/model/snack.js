@@ -4,14 +4,15 @@
  */
 export default class Snack{
 
+
     /**
     * Constructor
     * @para {String} typeOfSnack - The type of snack (fruit, candy, ect)
     * @para {boolean} isHealthy - True if healthy, false if not.
     */
     constructor(typeOfSnack, isHealthy){
-    var type;
-    var heathly;
+    this.type = typeOfSnack;
+    this.heathly = isHealthy;
     }//closes constructor
 
     /**
@@ -54,10 +55,10 @@ export class Chocolate extends Snack{
     /**
     * Constructor
     */
-    constructor(){
+    constructor(cocoPowderPercentage, chocolateType){
         super("Candy", false) //calling constructor or paraent class
-        var cocoPowderPercentage;
-        var chocolateType;
+        this.cocoPowderPercentage = cocoPowderPercentage;
+        var chocolateType= chocolateType;
     }
 
     /**
