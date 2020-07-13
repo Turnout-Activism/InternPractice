@@ -71,4 +71,15 @@ function CheckTypes(num1, num2) {
     return (typeof num1 == 'number' && typeof num2 == 'number');
 }
 
-export { Add, Subtract, Multiply, Divide }
+/**
+ * @description Returns the remainder of a division operation (modulo)
+ * 
+ * @param {number} num1
+ * @param {number} num2
+ */
+function Modulo(num1, num2) {
+    if (!CheckTypes(num1, num2)) return;
+    return num1 % num2;
+}
+
+export { Add, Subtract, Multiply, Divide, Modulo };
