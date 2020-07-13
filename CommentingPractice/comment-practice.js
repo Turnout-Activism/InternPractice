@@ -8,7 +8,11 @@ import { myName }  from './services/practice.js';
 import * as martin from './services/spaces.js';
 import { toPigLatin } from './services/piglatin.js';
 import * as luis from './services/backwardsName.js';
+<<<<<<< HEAD
 import * as henry from './services/encode-decode.js';
+=======
+
+>>>>>>> upstream/master
 import * as ramitha from './services/lowercase.js';
 import * as sum from './services/sumOfNumber.js';
 import * as sanjana from './services/product.js';
@@ -20,7 +24,6 @@ import * as adrianna from './services/sum.js';
 import * as glory from './model/rome.js';
 import TeamMate from './model/teammate.js'; 
 import ColorConverter from './services/colorConverter'; 
-
 
 
 
@@ -76,6 +79,7 @@ import ColorConverter from './services/colorConverter';
      var MyString = "My name is Adil Merribi";
      console.log(adil.myChars(MyString));
 
+<<<<<<< HEAD
      var name = "Richard";
      console.log(richard.randomVowels(name));
 
@@ -91,6 +95,10 @@ import ColorConverter from './services/colorConverter';
     //utilizing rome.js model for task 3 ~ Luis Moran 
     const whoIsEmperor = new glory.Emperor(true, 10); 
     console.log(whoIsEmperor.whoIsHe());
+=======
+
+ })();
+>>>>>>> upstream/master
 
 
 
