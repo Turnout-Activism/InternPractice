@@ -58,5 +58,54 @@ export default class Template {
 
     }
 
+    seeGroup()
+    {
+        switch(this.name){
+            case "Amonte":
+                console.log("Software Interns Lead");
+                break;
+            case "Martin":
+            case "Giovann":
+            case "Cameron":
+            case "Sanjana":
+                console.log("Firebase");
+                break;
+            case "Tanya":
+                console.log("Back End Dev");
+                break;
+            case "Amonte":
+            case "Mitchell":
+            case "Luis":
+            case "Shayan":
+            case "Lisa":
+                console.log("Front End Dev");
+                break;
+            case "Kalyan":
+                console.log("Full Stack Dev");
+                break;
+            case "Adrianna":
+                console.log("UI");
+                break;
+            case "Juan":
+            case "Adil":
+            case "Disha":
+            case "Sonia":
+            case "Ramitha":
+                console.log("Mobile");
+                break;
+            case "Ido":
+                console.log("DevOps");
+                break;
+            case "Sophia":
+                console.log("Too many Sophias :(");
+                break;
+            default:
+                console.log("gosh I don't know")
+                return true;
+        }
+        return true;
+    }
+    
+
 }
 
