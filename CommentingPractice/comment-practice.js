@@ -24,7 +24,8 @@ import * as glory from './model/rome.js';
 import Animal from './model/animal.js';
 import TeamMate from './model/teammate.js'; 
 import ColorConverter from './services/colorConverter'; 
-
+import Food from './services/food.js'
+import { Plant } from './model/plant.js';
 
 
 ( function() {
@@ -114,6 +115,9 @@ import ColorConverter from './services/colorConverter';
     lizard.setGroup("reptiles");
     console.log(lizard.getName() + " is a " + lizard.getGroup());
 
+    //utilizing plant.js for Task 3 ~ Iniya Rajamani
+    let sunflower = new Plant("Sunflower", 8, false);
+    console.log("A " + sunflower.name() + " usually grows up to " + sunflower.full_height() + " feet tall.");
 
  })();
 
