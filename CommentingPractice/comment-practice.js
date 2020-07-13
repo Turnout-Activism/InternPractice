@@ -114,6 +114,5 @@ import ColorConverter from './services/colorConverter';
     lizard.setGroup("reptiles");
     console.log(lizard.getName() + " is a " + lizard.getGroup());
 
-
  })();
 
