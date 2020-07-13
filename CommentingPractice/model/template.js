@@ -62,48 +62,37 @@ export default class Template {
     {
         switch(this.name){
             case "Amonte":
-                console.log("Software Interns Lead");
-                break;
+                return "Software Interns Lead";
             case "Martin":
             case "Giovann":
             case "Cameron":
             case "Sanjana":
-                console.log("Firebase");
-                break;
+                return "Firebase";
             case "Tanya":
-                console.log("Back End Dev");
-                break;
+                return "Back End Dev";
             case "Amonte":
             case "Mitchell":
             case "Luis":
             case "Shayan":
             case "Lisa":
-                console.log("Front End Dev");
-                break;
+                return "Front End Dev";
             case "Kalyan":
-                console.log("Full Stack Dev");
-                break;
+                return "Full Stack Dev";
             case "Adrianna":
-                console.log("UI");
-                break;
+                return "UI";
             case "Juan":
             case "Adil":
             case "Disha":
             case "Sonia":
             case "Ramitha":
-                console.log("Mobile");
-                break;
+                return  "Mobile";
             case "Ido":
-                console.log("DevOps");
-                break;
+                return "DevOps";
             case "Sophia":
-                console.log("Too many Sophias :(");
-                break;
+                return "Too many Sophias :(";
             default:
-                console.log("gosh I don't know")
-                return true;
+                return "gosh I don't know";
         }
-        return true;
     }
     
 

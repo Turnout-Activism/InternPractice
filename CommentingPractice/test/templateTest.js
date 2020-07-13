@@ -5,7 +5,7 @@ describe('CommentPractice', function () {
     describe('template', function() {
         it('should print out a group member based on their team object', function(){
             let template = new Template("Martin", "Person");
-            assert.equal(template.seeGroup(), true);
+            assert.equal(template.seeGroup(), "Firebase");
         });
     });
 });
