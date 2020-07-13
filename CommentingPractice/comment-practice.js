@@ -8,14 +8,23 @@ import { myName } from './services/practice.js';
 import * as martin from './services/spaces.js';
 import { toPigLatin } from './services/piglatin.js';
 import * as luis from './services/backwardsName.js';
+import * as henry from './services/encode-decode.js';
 import * as ramitha from './services/lowercase.js';
 import * as sum from './services/sumOfNumber.js';
 import * as sanjana from './services/product.js';
 import * as Arithmetic from './services/arithmetic.js';
 import * as mitchell from './services/caesarCipher.js';
 import * as adil from './services/splitor.js';
+import * as iniya from './services/wordArray.js';
+
+import * as giovann from './services/test.js';
+import * as richard from './services/vowelSwitcher.js';
 import * as adrianna from './services/sum.js';
 import * as glory from './model/rome.js';
+import Animal from './model/animal.js';
+import TeamMate from './model/teammate.js'; 
+import ColorConverter from './services/colorConverter'; 
+
 
 
 (function () {
