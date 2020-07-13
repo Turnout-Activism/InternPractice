@@ -24,6 +24,7 @@ import * as glory from './model/rome.js';
 import Animal from './model/animal.js';
 import TeamMate from './model/teammate.js'; 
 import ColorConverter from './services/colorConverter'; 
+import * as Shapes from './model/Shape.js';
 
 
 
@@ -114,6 +115,28 @@ import ColorConverter from './services/colorConverter';
     lizard.setGroup("reptiles");
     console.log(lizard.getName() + " is a " + lizard.getGroup());
 
+    // utilizing Shapes for task 3 ~ Juan Becerra
+    {
+        // Init objects
+        let abstractShape = new Shapes.Shape("Abstract Shape");
+        let pizza = new Shapes.Circle("Pizza", 5.0);
+        let box = new Shapes.Rectangle("Box", 4.0, 3.0);
+
+        // This should throw an error since it's an abstract class
+        try {
+            abstractShape.LogInfo();
+        } catch (e) {
+            console.log(e.message);
+        }
+
+        // Do stuff with our pizza
+        pizza.SetRadius(7.5);
+        pizza.LogInfo();
+
+        // Do stuff with our box
+        box.SetHeight(4.0);
+        console.log(box.GetWidth() + " - " + box.GetHeight());
+    }
 
  })();
 
