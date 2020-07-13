@@ -103,7 +103,7 @@ import * as Plant from './model/plant.js';
     const member = new TeamMate("Sanjana", "Yadav");
     console.log(whoIsEmperor.whoIsHe());	  member.setTeamName("Interns");
 
-    member.hello();
+    member.getTeamName();
 
     const plant = new Plant.Plant("Amonte",29,true);
     console.log(plant.isIndoorPlant());
