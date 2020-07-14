@@ -114,5 +114,11 @@ import ColorConverter from './services/colorConverter';
     lizard.setGroup("reptiles");
     console.log(lizard.getName() + " is a " + lizard.getGroup());
 
+    // using animal.js for task 3 - Giovann Fox
+    let cheetah = new Animal();
+    cheetah.setName("Cheetah");
+    cheetah.setGroup("Mammal");
+    console.log(cheetah.getName() + "is a " + cheetah.getGroup());
+
  })();
 
