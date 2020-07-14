@@ -7,7 +7,7 @@
 /**
  * @module
  */
-class Team{
+export class Team{
     /**
      * @constructor main Team class
      * @param {string} tname 
@@ -40,7 +40,7 @@ class Team{
 /**
  * @module
  */
-class TeamMate extends Team {
+export class TeamMate extends Team {
     
     /** 
     * @description creates a Teammate object that will have the first name and last name, with a choice to set a team name. 
@@ -72,3 +72,5 @@ class TeamMate extends Team {
 console.log("My name is " + teammate.fName + " " + teammate.lName + ". My team is called " + teammate.tname + " and there are " + teammate.numMembers + " members in my team.");
 console.log("I am good at " + teammate.strengths[0] + ", coding in " + teammate.strengths[1] + ", and " + teammate.strengths[2] + ".");
 */
+
+export {TeamMate}

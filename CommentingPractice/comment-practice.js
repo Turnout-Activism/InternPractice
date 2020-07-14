@@ -102,7 +102,7 @@ import * as Plant from './model/plant.js';
 
     console.log(whoIsEmperor.whoIsHe());
     	
-    const member = new Team.TeamMate("Sanjana", "Yadav");  
+    const member = new Team("Tanya",18);
     member.setTeamName("Interns");
     member.getTeamName();
 
