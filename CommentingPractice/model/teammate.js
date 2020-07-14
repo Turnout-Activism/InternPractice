@@ -10,13 +10,14 @@
 export class Team{
     /**
      * @constructor main Team class
-     * @param {string} tname 
-     * @param {number} numMembers
+     * @param {string} fName
+     * @param {string} lName
      */
-     constructor(tname,numMembers)
+     constructor(fName,lName)
      {
-       this.tname=tname;
-       this.numMembers = numMembers;
+       this.fName = fName;
+       this.lName = lName;
+       let tName;
      }
        //function will return the team name if set.
     getTeamName()
@@ -40,7 +41,7 @@ export class Team{
 /**
  * @module
  */
-export class TeamMate extends Team {
+export default class TeamMate extends Team {
     
     /** 
     * @description creates a Teammate object that will have the first name and last name, with a choice to set a team name. 
@@ -48,13 +49,13 @@ export class TeamMate extends Team {
     * Constructor
     * @param {string} fName - is first Name 
     * @param {string} lName - is last name
-    * @param {Array} strengths - strengths of team member
+    
     */
-    constructor(tname,numMembers,fName, lName,strengths){
-        super(tname,numMembers);
-        this.fName = fName; 
-        this.lName = lName;
-        this.strengths  = strengths;
+    constructor(fName, lName, strengths){
+        
+        super(fName,lName);
+        this.strengths = strengths; 
+  
     }
 
    
@@ -73,4 +74,3 @@ console.log("My name is " + teammate.fName + " " + teammate.lName + ". My team i
 console.log("I am good at " + teammate.strengths[0] + ", coding in " + teammate.strengths[1] + ", and " + teammate.strengths[2] + ".");
 */
 
-export {TeamMate}

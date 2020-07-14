@@ -20,7 +20,7 @@ import * as giovann from './services/test.js';
 import * as richard from './services/vowelSwitcher.js';
 import * as adrianna from './services/sum.js';
 import * as glory from './model/rome.js';
-import Team from './model/teammate.js'; 
+import TeamMate from './model/teammate.js'; 
 import ColorConverter from './services/colorConverter'; 
 import * as Plant from './model/plant.js';
 
@@ -102,9 +102,11 @@ import * as Plant from './model/plant.js';
 
     console.log(whoIsEmperor.whoIsHe());
     	
-    const member = new Team("Tanya",18);
+    const member = new TeamMate("Tanya", "Malik", ["one", "two"]);
     member.setTeamName("Interns");
     member.getTeamName();
+    member.setNumMembers(20);
+    console.log(`Number of members on my team: ${member.getNumMembers()}`);
 
     const plant = new Plant.Plant("Amonte",29,true);
     console.log(plant.isIndoorPlant());
