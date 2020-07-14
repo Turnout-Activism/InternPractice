@@ -7,7 +7,7 @@
 /**
  * @module
  */
-export class Team{
+class Team{
     /**
      * @constructor main Team class
      * @param {string} tname 
@@ -40,7 +40,7 @@ export class Team{
 /**
  * @module
  */
-export class TeamMate extends Team {
+class TeamMate extends Team {
     
     /** 
     * @description creates a Teammate object that will have the first name and last name, with a choice to set a team name. 
