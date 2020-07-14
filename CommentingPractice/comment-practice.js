@@ -117,7 +117,6 @@ import * as Plant from './model/plant.js';
 
     //utilizing plant.js for task 3 ~ Adrianna Zhao
     let monstera = new Plant.OakTree("monstera", 8, true, "is it a tree?");
-    console.log(monstera.name());
 
 
 })();
