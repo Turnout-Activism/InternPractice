@@ -24,7 +24,7 @@ import * as glory from './model/rome.js';
 import Animal from './model/animal.js';
 import TeamMate from './model/teammate.js';
 import ColorConverter from './services/colorConverter';
-import Plant from './model/plant.js';
+import * as Plant from './model/plant.js';
 
 
 
@@ -116,9 +116,8 @@ import Plant from './model/plant.js';
     console.log(lizard.getName() + " is a " + lizard.getGroup());
 
     //utilizing plant.js for task 3 ~ Adrianna Zhao
-    let monstera = new Plant("monstera", 8, true);
-    console.log(monstera.name() + " is " + monstera.full_height() + "ft tall.");
-
+    let monstera = new Plant.OakTree("monstera", 8, true, "is it a tree?");
+    console.log(monstera.name());
 
 
 })();

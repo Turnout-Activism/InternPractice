@@ -7,7 +7,7 @@
  * @module
  */
 
-export class Book {
+export default class Book {
     /**
      *
      * @param {String} title - Title of book
