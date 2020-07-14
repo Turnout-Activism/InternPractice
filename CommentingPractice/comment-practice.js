@@ -22,8 +22,9 @@ import * as richard from './services/vowelSwitcher.js';
 import * as adrianna from './services/sum.js';
 import * as glory from './model/rome.js';
 import Animal from './model/animal.js';
-import TeamMate from './model/teammate.js'; 
-import ColorConverter from './services/colorConverter'; 
+import TeamMate from './model/teammate.js';
+import ColorConverter from './services/colorConverter';
+import Plant from './model/plant.js';
 
 
 
@@ -43,6 +44,8 @@ import ColorConverter from './services/colorConverter';
     let greeting = "hello";
     console.log(martin.addSpace(greeting));
 
+    let secretMessage = "Slack Practice";
+    console.log(henry.encode(secretMessage));
 
     var word = "WORD";
     console.log(ramitha.lowercase(word));
@@ -75,8 +78,47 @@ import ColorConverter from './services/colorConverter';
     var MyString = "My name is Adil Merribi";
     console.log(adil.myChars(MyString));
 
+    let sentence = "TurnUp is an app that centralizes youth activism by connecting organizations, campaigns and movements."
+    console.log(iniya.sentenceToWords(sentence));
+
+    console.log(giovann.helloWorld());
+
+    var name = "Richard";
+    console.log(richard.randomVowels(name));
+
+
+    //utilizing template.js model for task 3 ~ Kyle Kobayashi
+    let temp = new Template("ROYBGIV", "The colors of the rainbow in their respective order");
+    console.log(temp.name + ": " + temp.description);
+
 
     var templateObj = new Template("Martin", "First Commit")
-    console.log(templateObj.name)
+    console.log(templateObj.name);
+
+    let bear = new Animal();
+    bear.setName("bear");
+    bear.setGroup("mammal");
+    console.log(bear.getName() + " is a " + bear.getGroup());
+
+    //utilizing rome.js model for task 3 ~ Luis Moran 
+    const whoIsEmperor = new glory.Emperor(true, 10);
+    console.log(whoIsEmperor.whoIsHe());
+
+    const member = new TeamMate("Sanjana", "Yadav");
+    console.log(whoIsEmperor.whoIsHe()); member.setTeamName("Interns");
+
+    member.hello();
+
+    //utilizing animal.js for task 3 ~ Ramitha Kotarkonda
+    let lizard = new Animal();
+    lizard.setName("lizard");
+    lizard.setGroup("reptiles");
+    console.log(lizard.getName() + " is a " + lizard.getGroup());
+
+    //utilizing plant.js for task 3 ~ Adrianna Zhao
+    let monstera = new Plant("monstera", 8, true);
+    console.log(monstera.name() + "is" + monstera.full_height() + "ft tall.");
+
+
 
 })();
