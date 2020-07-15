@@ -25,6 +25,7 @@ import Animal from './model/animal.js';
 import TeamMate from './model/teammate.js'; 
 import ColorConverter from './services/colorConverter'; 
 import Snack from './model/snack.js';
+import * as Shapes from './model/Shape.js';
 
 
 
@@ -104,6 +105,12 @@ import Snack from './model/snack.js';
     const whoIsEmperor = new glory.Emperor(true, 10); 
     console.log(whoIsEmperor.whoIsHe());
 
+
+    //utilizing animal.js for task 3 ~ Ramitha Kotarkonda
+    let lizard = new Animal();
+    lizard.setName("lizard");
+    lizard.setGroup("reptiles");
+    console.log(lizard.getName() + " is a " + lizard.getGroup());
 
 
  })();
