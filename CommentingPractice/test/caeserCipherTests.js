@@ -1,7 +1,10 @@
-var assert = require('assert');
-const Services = require('./allServices')
+import Services from './allServices.js'
+import pkg from 'chai'
+const assert = pkg.assert;
+const expect = pkg.expect;
 
-var expect = require('chai').expect
+
+
 
 describe('CommentPractice', function () {
   describe('caesarCipher', function () {

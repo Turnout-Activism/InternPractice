@@ -1,7 +1,8 @@
 
-const assert = require('assert');
-const Services = require('./allServices');
-const expect = require('chai').expect
+import Services from './allServices.js'
+import pkg from 'chai'
+const assert = pkg.assert;
+const expect = pkg.expect;
 
 describe('CommentPractice', function () {
   describe('sumOfNumber', function () {

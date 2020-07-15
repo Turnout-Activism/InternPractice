@@ -1,9 +1,9 @@
-const describe = require("mocha").describe
-const it = require('mocha').it
+import ColorConverter from '../services/colorConverter.js'
+import pkg from 'chai'
 
-const assert = require('chai').assert;
-const expect = require('chai').expect;
-import ColorConverter from '../services/colorConverter'
+
+const assert = pkg.assert;
+const expect = pkg.expect;
 
 describe('Color Converter unit tests', () => {
   describe('pack-1', () => {
