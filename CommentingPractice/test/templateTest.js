@@ -1,4 +1,7 @@
-const assert = require('assert'); 
+
+import pkg from 'chai'
+const assert = pkg.assert;
+const expect = pkg.expect;
 import Template from '../model/template.js';
 
 describe('CommentPractice', function () {
