@@ -114,10 +114,7 @@ import * as Plant from './model/plant.js';
 
     const plant = new Plant.Plant("Amonte",29,true);
 
-    const member = new TeamMate("Sanjana", "Yadav");
     console.log(whoIsEmperor.whoIsHe());	  member.setTeamName("Interns");
-
-    member.hello();
 
     //utilizing animal.js for task 3 ~ Ramitha Kotarkonda
     let lizard = new Animal();
