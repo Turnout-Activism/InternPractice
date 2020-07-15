@@ -1,6 +1,7 @@
-const assert = require("chai").assert;
-const Services = require("./allServices");
-const expect = require("chai").expect;
+import Services from './allServices.js'
+import pkg from 'chai'
+const assert = pkg.assert;
+const expect = pkg.expect;
 
 describe("CommentPractice", function () {
   describe("Spaces", function () {
