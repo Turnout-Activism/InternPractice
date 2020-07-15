@@ -23,8 +23,14 @@ import * as adrianna from './services/sum.js';
 import * as glory from './model/rome.js';
 import Animal from './model/animal.js';
 import TeamMate from './model/teammate.js'; 
+
 import ColorConverter from './services/colorConverter'; 
 import * as Plant from './model/plant.js';
+
+import ColorConverter from './services/colorConverter.js'; 
+import Snack from './model/snack.js';
+import * as Shapes from './model/Shape.js';
+import {OakTree} from './model/plant.js'
 
 
 ( function() {
@@ -104,6 +110,7 @@ import * as Plant from './model/plant.js';
     console.log(whoIsEmperor.whoIsHe());
 
 
+
     console.log(whoIsEmperor.whoIsHe());
     	
     const member = new TeamMate("Tanya", "Malik", ["one", "two"]);
@@ -116,12 +123,18 @@ import * as Plant from './model/plant.js';
 
     console.log(whoIsEmperor.whoIsHe());	  member.setTeamName("Interns");
 
+
     //utilizing animal.js for task 3 ~ Ramitha Kotarkonda
     let lizard = new Animal();
     lizard.setName("lizard");
     lizard.setGroup("reptiles");
     console.log(lizard.getName() + " is a " + lizard.getGroup());
 
+
+
+     //utilizing plant.js for task 3 ~ Adrianna Zhao
+
+     let monstera = new OakTree("monstera", 8, true, "is it a tree?");
 
  })();
 
