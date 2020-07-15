@@ -109,3 +109,5 @@ CommentingPractice/.DS_Store
 CommentingPractice/main.js
 .DS_Store
 CommentingPractice/docs/gen/
+CommentingPractice/.compiled/comment-practice.js
+CommentingPractice/.compiled/comment-practice.js.map
