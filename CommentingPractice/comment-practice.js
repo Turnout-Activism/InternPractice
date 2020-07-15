@@ -24,6 +24,9 @@ import * as glory from './model/rome.js';
 import Animal from './model/animal.js';
 import TeamMate from './model/teammate.js'; 
 import ColorConverter from './services/colorConverter.js'; 
+import Snack from './model/snack.js';
+import * as Shapes from './model/Shape.js';
+
 
 
 
@@ -103,16 +106,13 @@ import ColorConverter from './services/colorConverter.js';
     const whoIsEmperor = new glory.Emperor(true, 10); 
     console.log(whoIsEmperor.whoIsHe());
 
-    const member = new TeamMate("Sanjana", "Yadav");
-    console.log(whoIsEmperor.whoIsHe());	  member.setTeamName("Interns");
-
-    member.hello();
 
     //utilizing animal.js for task 3 ~ Ramitha Kotarkonda
     let lizard = new Animal();
     lizard.setName("lizard");
     lizard.setGroup("reptiles");
     console.log(lizard.getName() + " is a " + lizard.getGroup());
+
 
  })();
 

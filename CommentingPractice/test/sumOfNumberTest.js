@@ -12,6 +12,12 @@ describe('CommentPractice', function () {
       assert.equal(result, 120);
 
     });
+    it('should return expected result when input is negative', function () {
+      let obj = -15;
+      let result = Services.SumOfNumber.sumOfNumber(obj);
+      let expectedResult = -120;
+      assert.equal(result, expectedResult);
+    });
     it('should handle undefined', function(){
         let obj = 15;
         expect(Services.SumOfNumber.sumOfNumber(obj)).to.be.a('number')
