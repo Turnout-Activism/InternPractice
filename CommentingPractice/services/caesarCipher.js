@@ -8,9 +8,11 @@
  * @param {string} input - only lowercase characters
  * @return string
  */
-function caesarCipher(input) {
+function caesarCipher(input)
+{
     //ensures input is a string
-    if (typeof input != 'string') {
+    if (typeof input != 'string') 
+    {
         return input;
     }
     let output = "";
@@ -19,13 +21,13 @@ function caesarCipher(input) {
     //iterates through string and shifts each character
     for (var i = 0; i < input.length; i++) {
         let ascii = input.charCodeAt(i) - 3;
-        if (ascii < 97) {
+        if (ascii < 97){
             ascii += 26;
         }
         var newChar = String.fromCharCode(ascii);
-        output += String(newChar);
+        output+=String(newChar);
     }
     return output;
 }
 
-export { caesarCipher }
+ export { caesarCipher }
