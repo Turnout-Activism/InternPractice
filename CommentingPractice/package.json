@@ -7,7 +7,7 @@
   "scripts": {
     "test": "nyc mocha --require @babel/register",
     "debug": "gulp doc && rollup comment-practice.js --file main.js --format cjs && node --nolazy --inspect main.js",
-    "compile": "babel comment-practice.js --out-dir .compiled --source-maps --watch"
+    "compile": "babel comment-practice.js --out-dir .compiled --source-maps"
   },
   "repository": {
     "type": "git",
