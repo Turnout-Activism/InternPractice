@@ -24,6 +24,7 @@ import * as glory from './model/rome.js';
 import Animal from './model/animal.js';
 import TeamMate from './model/teammate.js'; 
 import ColorConverter from './services/colorConverter'; 
+import * as Shapes from './model/Shape.js';
 
 
 
@@ -113,6 +114,7 @@ import ColorConverter from './services/colorConverter';
     lizard.setName("lizard");
     lizard.setGroup("reptiles");
     console.log(lizard.getName() + " is a " + lizard.getGroup());
+
 
  })();
 
