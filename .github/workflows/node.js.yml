@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ development, master, jobs-automation ]
+    branches: [ development, master ]
   pull_request:
-    branches: [ development ]
+    branches: []
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [12.x, 14.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -27,3 +27,4 @@ jobs:
     - run: cd CommentingPractice && npm ci
     - run: cd CommentingPractice && npm test
     - run: cd CommentingPractice && npm run debug --if-present
+    - run: cd CommentingPractice && npm run compile

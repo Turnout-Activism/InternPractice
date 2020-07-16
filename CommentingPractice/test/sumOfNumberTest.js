@@ -1,7 +1,8 @@
 
-const assert = require('assert');
-const Services = require('./allServices');
-const expect = require('chai').expect
+import Services from './allServices.js'
+import pkg from 'chai'
+const assert = pkg.assert;
+const expect = pkg.expect;
 
 describe('CommentPractice', function () {
   describe('sumOfNumber', function () {
@@ -10,6 +11,12 @@ describe('CommentPractice', function () {
       let result = Services.SumOfNumber.sumOfNumber(obj);
       assert.equal(result, 120);
 
+    });
+    it('should return expected result when input is negative', function () {
+      let obj = -15;
+      let result = Services.SumOfNumber.sumOfNumber(obj);
+      let expectedResult = -120;
+      assert.equal(result, expectedResult);
     });
     it('should handle undefined', function(){
         let obj = 15;

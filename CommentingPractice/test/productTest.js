@@ -1,5 +1,7 @@
-const assert = require('chai').assert;
-const Services = require('./allServices');
+import Services from './allServices.js'
+import pkg from 'chai'
+const assert = pkg.assert;
+const expect = pkg.expect;
 
 describe('Product', function(){
     it('should return the product of two numbers', function(){
