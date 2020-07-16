@@ -22,10 +22,11 @@ import * as richard from './services/vowelSwitcher.js';
 import * as adrianna from './services/sum.js';
 import * as glory from './model/rome.js';
 import Animal from './model/animal.js';
-import TeamMate from './model/teammate.js'; 
-import ColorConverter from './services/colorConverter.js'; 
+import TeamMate from './model/teammate.js';
+import ColorConverter from './services/colorConverter.js';
 import Snack from './model/snack.js';
 import * as Shapes from './model/Shape.js';
+import * as Game from './model/game.js';
 
 
 
@@ -79,10 +80,10 @@ import * as Shapes from './model/Shape.js';
 
      var MyString = "My name is Adil Merribi";
      console.log(adil.myChars(MyString));
- 
+
      let sentence = "TurnUp is an app that centralizes youth activism by connecting organizations, campaigns and movements."
      console.log(iniya.sentenceToWords(sentence));
-     
+
      console.log(giovann.helloWorld());
 
      var name = "Richard";
@@ -95,15 +96,15 @@ import * as Shapes from './model/Shape.js';
 
 
     var templateObj = new Template("Martin", "First Commit")
-    console.log(templateObj.name); 
+    console.log(templateObj.name);
 
     let bear = new Animal();
     bear.setName("bear");
     bear.setGroup("mammal");
     console.log(bear.getName() + " is a " + bear.getGroup());
 
-    //utilizing rome.js model for task 3 ~ Luis Moran 
-    const whoIsEmperor = new glory.Emperor(true, 10); 
+    //utilizing rome.js model for task 3 ~ Luis Moran
+    const whoIsEmperor = new glory.Emperor(true, 10);
     console.log(whoIsEmperor.whoIsHe());
 
 
@@ -113,6 +114,21 @@ import * as Shapes from './model/Shape.js';
     lizard.setGroup("reptiles");
     console.log(lizard.getName() + " is a " + lizard.getGroup());
 
+    //utilizing game.js for task 3 ~ Richard Watson
+    let gameOne = new Game.Rpg();
+    gameOne.setName("Witcher 3");
+    gameOne.setRating("Mature");
+    gameOne.setCharacterName("Geralt");
+    gameOne.setCharacterType("Witcher");
+    gameOne.setArmorOfChoice("Griffin gear");
+    console.log(`
+    The game you're playing is: ${gameOne.getName()}
+    Your game's rating: ${gameOne.getRating()}
+    Character Name: ${gameOne.getCharacterName()}
+    Character Type: ${gameOne.getCharacterType()}
+    Armor of Choice: ${gameOne.getArmorOfChoice()}`);
+
+
+
 
  })();
-
