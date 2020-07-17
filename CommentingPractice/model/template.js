@@ -54,9 +54,47 @@ export default class Template {
     constructor(name, description)
     {
         this.name = name;
-        this.desciption = description;
+        this.description = description;
 
     }
+
+    seeGroup()
+    {
+        switch(this.name){
+            case "Amonte":
+                return "Software Interns Lead";
+            case "Martin":
+            case "Giovann":
+            case "Cameron":
+            case "Sanjana":
+                return "Firebase";
+            case "Tanya":
+                return "Back End Dev";
+            case "Amonte":
+            case "Mitchell":
+            case "Luis":
+            case "Shayan":
+            case "Lisa":
+                return "Front End Dev";
+            case "Kalyan":
+                return "Full Stack Dev";
+            case "Adrianna":
+                return "UI";
+            case "Juan":
+            case "Adil":
+            case "Disha":
+            case "Sonia":
+            case "Ramitha":
+                return  "Mobile";
+            case "Ido":
+                return "DevOps";
+            case "Sophia":
+                return "Too many Sophias :(";
+            default:
+                return "gosh I don't know";
+        }
+    }
+    
 
 }
 
