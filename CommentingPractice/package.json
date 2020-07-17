@@ -1,5 +1,5 @@
 {
-  "type": "module",
+  "type":"module",
   "name": "commentingpractice",
   "version": "1.0.0",
   "description": "An environment to practice javscript commenting ",
