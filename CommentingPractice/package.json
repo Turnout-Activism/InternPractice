@@ -1,11 +1,13 @@
 {
+  "type":"module",
   "name": "commentingpractice",
   "version": "1.0.0",
   "description": "An environment to practice javscript commenting ",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha --require @babel/register",
-    "debug": "gulp doc && rollup comment-practice.js --file main.js --format cjs && node --nolazy --inspect main.js"
+    "debug": "gulp doc && rollup comment-practice.js --file main.js --format cjs && node --nolazy --inspect main.js",
+    "compile": "babel comment-practice.js --out-dir .compiled --source-maps"
   },
   "repository": {
     "type": "git",
@@ -18,18 +20,31 @@
   },
   "homepage": "https://github.com/Turnout-Activism/InternPractice#readme",
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.4",
+    "@babel/register": "^7.10.5",
     "chai": "^4.2.0",
+    "cross-env": "^7.0.2",
     "gulp": "^4.0.2",
     "gulp-jsdoc3": "^3.0.0",
     "jsdoc": "^3.6.4",
+    "mocha": "^8.0.1",
     "nyc": "^15.1.0"
   },
   "dependencies": {
     "esm": "^3.2.25",
     "express": "^4.17.1",
-    "mocha": "^8.0.1",
     "rollup": "^2.19.0"
+  },
+  "nyc": {
+    "require": [
+      "@babel/register"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "sourceMap": false,
+    "instrument": false
   }
 }
