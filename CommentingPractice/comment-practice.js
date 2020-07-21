@@ -85,8 +85,14 @@ import {OakTree} from './model/plant.js'
      
      console.log(giovann.helloWorld());
 
+<<<<<<< HEAD
+    var MyString2 = "My name is Ido";
+    consol.log(adil.myChars(MyString2));
+
+=======
      var name = "Richard";
      console.log(richard.randomVowels(name));
+>>>>>>> upstream/master
 
 
     //utilizing template.js model for task 3 ~ Kyle Kobayashi
