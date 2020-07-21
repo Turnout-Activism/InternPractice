@@ -26,7 +26,7 @@ import TeamMate from './model/teammate.js';
 import ColorConverter from './services/colorConverter.js'; 
 import Snack from './model/snack.js';
 import * as Shapes from './model/Shape.js';
-
+import {OakTree} from './model/plant.js'
 
 
 
@@ -119,6 +119,10 @@ import * as Shapes from './model/Shape.js';
     lizard.setGroup("reptiles");
     console.log(lizard.getName() + " is a " + lizard.getGroup());
 
+
+     //utilizing plant.js for task 3 ~ Adrianna Zhao
+
+     let monstera = new OakTree("monstera", 8, true, "is it a tree?");
 
  })();
 
